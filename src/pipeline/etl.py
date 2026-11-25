@@ -1,4 +1,5 @@
 
+import logging
 from pathlib import Path
 
 import pandas as pd
@@ -6,9 +7,9 @@ import pandas as pd
 from data_quality import validate_sales
 
 
-# --------------------------------------------------
-# 1. PROJECT CONFIGURATION
-# --------------------------------------------------
+# ==================================================
+# PROJECT CONFIGURATION
+# ==================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
@@ -16,170 +17,188 @@ DATA_DIR = PROJECT_ROOT / "data"
 PROCESSED_DIR = DATA_DIR / "processed"
 
 
-# --------------------------------------------------
-# 2. EXTRACT
-# --------------------------------------------------
+# ==================================================
+# LOGGING CONFIGURATION
+# ==================================================
+
+LOG_DIR = PROJECT_ROOT / "logs"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+LOG_FILE = LOG_DIR / "etl.log"
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+if not logger.handlers:
+
+    formatter = logging.Formatter(
+        "%(asctime)s | %(levelname)s | %(message)s"
+    )
+
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+
+    file_handler = logging.FileHandler(
+        LOG_FILE,
+        encoding="utf-8"
+    )
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+
+
+# ==================================================
+# EXTRACT
+# ==================================================
 
 def extract():
-    """Extract source data from CSV files."""
 
-    print("Starting data extraction...")
+    logger.info("Starting data extraction...")
 
     customers = pd.read_csv(DATA_DIR / "customers.csv")
     products = pd.read_csv(DATA_DIR / "products.csv")
     sales = pd.read_csv(DATA_DIR / "sales.csv")
 
-    print(f"Customers extracted: {len(customers)}")
-    print(f"Products extracted: {len(products)}")
-    print(f"Sales extracted: {len(sales)}")
+    logger.info("Customers extracted: %s", len(customers))
+    logger.info("Products extracted: %s", len(products))
+    logger.info("Sales extracted: %s", len(sales))
 
     return customers, products, sales
 
 
-# --------------------------------------------------
-# 3. TRANSFORM
-# --------------------------------------------------
+# ==================================================
+# TRANSFORM
+# ==================================================
 
 def transform(customers, products, sales):
-    """Join datasets, enrich transactions and calculate revenue."""
 
-    print("Starting data transformation...")
+    logger.info("Starting data transformation...")
 
     # Join sales with customer information
-    sales = sales.merge(
-        customers,
+    transformed = sales.merge(
+        customers[["customer_id", "customer_name", "city"]],
         on="customer_id",
         how="left",
-        validate="many_to_one",
+        validate="many_to_one"
     )
 
     # Join sales with product information
-    sales = sales.merge(
-        products,
+    transformed = transformed.merge(
+        products[["product_id", "product_name", "unit_price"]],
         on="product_id",
         how="left",
-        validate="many_to_one",
+        validate="many_to_one"
     )
 
     # Calculate transaction revenue
-    sales["total_amount"] = (
-        sales["quantity"] * sales["unit_price"]
+    transformed["total_amount"] = (
+        transformed["quantity"] * transformed["unit_price"]
     ).round(2)
 
     # Remove records without customer or product information
-    sales = sales.dropna(
-        subset=["customer_name", "product_name"]
+    transformed = transformed.dropna(
+        subset=["customer_name", "product_name", "unit_price"]
     )
 
     # Select final output columns
-    sales = sales[
-        [
-            "transaction_id",
-            "customer_id",
-            "customer_name",
-            "product_id",
-            "product_name",
-            "category",
-            "quantity",
-            "unit_price",
-            "total_amount",
-            "transaction_date",
-            "city",
-        ]
+    output_columns = [
+        "transaction_id",
+        "customer_id",
+        "customer_name",
+        "product_id",
+        "product_name",
+        "quantity",
+        "unit_price",
+        "total_amount",
+        "transaction_date",
+        "city"
     ]
 
-    print("Data transformation completed.")
+    transformed = transformed[output_columns]
 
-    return sales
+    logger.info("Data transformation completed.")
+    logger.info("Transformed records: %s", len(transformed))
 
-
-# --------------------------------------------------
-# 4. DATA QUALITY VALIDATION
-# --------------------------------------------------
-
-def validate(sales):
-    """Validate the transformed sales dataset."""
-
-    print("Starting data quality validation...")
-
-    validation_result = validate_sales(sales)
-
-    print("Data quality validation passed.")
-    print(f"Validation results: {validation_result}")
-
-    return validation_result
+    return transformed
 
 
-# --------------------------------------------------
-# 5. LOAD
-# --------------------------------------------------
+# ==================================================
+# DATA QUALITY VALIDATION
+# ==================================================
 
-def load(sales):
-    """Load validated data into processed storage."""
+def validate(data):
 
-    print("Starting data loading...")
+    logger.info("Starting data quality validation...")
 
-    PROCESSED_DIR.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    validation_results = validate_sales(data)
 
-    output_file = PROCESSED_DIR / "processed_sales.csv"
+    logger.info("Data quality validation passed.")
+    logger.info("Validation results: %s", validation_results)
 
-    sales.to_csv(
-        output_file,
-        index=False,
-    )
-
-    print("Data loading completed.")
-    print(f"Output file: {output_file}")
-    print(f"Records loaded: {len(sales)}")
+    return validation_results
 
 
-# --------------------------------------------------
-# 6. PIPELINE ORCHESTRATION
-# --------------------------------------------------
+# ==================================================
+# LOAD
+# ==================================================
+
+def load(data):
+
+    logger.info("Starting data loading...")
+
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+
+    output_path = PROCESSED_DIR / "processed_sales.csv"
+
+    data.to_csv(output_path, index=False)
+
+    logger.info("Data loading completed.")
+    logger.info("Output file: %s", output_path)
+    logger.info("Records loaded: %s", len(data))
+
+
+# ==================================================
+# MAIN ETL PIPELINE
+# ==================================================
 
 def main():
-    """Execute the complete ETL pipeline."""
 
-    print("=" * 50)
-    print("SALES ETL PIPELINE")
-    print("=" * 50)
+    logger.info("=" * 50)
+    logger.info("SALES ETL PIPELINE STARTED")
+    logger.info("=" * 50)
 
     try:
-        # Extract
+
+        # Step 1: Extract
         customers, products, sales = extract()
 
-        # Transform
-        transformed_sales = transform(
+        # Step 2: Transform
+        transformed_data = transform(
             customers,
             products,
-            sales,
+            sales
         )
 
-        # Validate
-        validate(transformed_sales)
+        # Step 3: Validate
+        validate(transformed_data)
 
-        # Load
-        load(transformed_sales)
+        # Step 4: Load
+        load(transformed_data)
 
-        print("=" * 50)
-        print("ETL PIPELINE COMPLETED SUCCESSFULLY")
-        print("=" * 50)
+        logger.info("=" * 50)
+        logger.info("ETL PIPELINE COMPLETED SUCCESSFULLY")
+        logger.info("=" * 50)
 
-    except Exception as error:
-        print("=" * 50)
-        print("ETL PIPELINE FAILED")
-        print(f"Error: {error}")
-        print("=" * 50)
+    except Exception:
 
+        logger.exception("ETL PIPELINE FAILED.")
         raise
 
 
-# --------------------------------------------------
-# 7. APPLICATION ENTRY POINT
-# --------------------------------------------------
+# ==================================================
+# EXECUTION ENTRY POINT
+# ==================================================
 
 if __name__ == "__main__":
     main()
