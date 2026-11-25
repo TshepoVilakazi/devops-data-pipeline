@@ -1,0 +1,1001 @@
+customer_id,customer_name,city,signup_date
+1,Customer_1,Johannesburg,2024-01-26
+2,Customer_2,Durban,2024-09-07
+3,Customer_3,Cape Town,2024-05-22
+4,Customer_4,Johannesburg,2025-11-23
+5,Customer_5,Bloemfontein,2024-03-30
+6,Customer_6,Bloemfontein,2025-03-08
+7,Customer_7,Johannesburg,2024-01-31
+8,Customer_8,Johannesburg,2024-08-11
+9,Customer_9,Cape Town,2025-06-01
+10,Customer_10,Bloemfontein,2024-01-28
+11,Customer_11,Bloemfontein,2024-07-22
+12,Customer_12,Bloemfontein,2025-03-05
+13,Customer_13,Cape Town,2025-04-04
+14,Customer_14,Bloemfontein,2024-10-11
+15,Customer_15,Johannesburg,2026-02-16
+16,Customer_16,Cape Town,2025-12-15
+17,Customer_17,Pretoria,2024-12-14
+18,Customer_18,Durban,2024-06-08
+19,Customer_19,Cape Town,2026-02-20
+20,Customer_20,Durban,2024-04-14
+21,Customer_21,Johannesburg,2025-01-24
+22,Customer_22,Johannesburg,2025-01-02
+23,Customer_23,Durban,2025-09-10
+24,Customer_24,Durban,2026-04-06
+25,Customer_25,Johannesburg,2026-01-17
+26,Customer_26,Pretoria,2025-07-03
+27,Customer_27,Johannesburg,2025-01-22
+28,Customer_28,Johannesburg,2025-07-19
+29,Customer_29,Durban,2026-04-29
+30,Customer_30,Bloemfontein,2026-06-01
+31,Customer_31,Durban,2025-08-14
+32,Customer_32,Cape Town,2025-12-22
+33,Customer_33,Johannesburg,2024-02-16
+34,Customer_34,Cape Town,2026-03-02
+35,Customer_35,Durban,2024-03-22
+36,Customer_36,Cape Town,2026-06-06
+37,Customer_37,Johannesburg,2025-01-24
+38,Customer_38,Durban,2025-04-09
+39,Customer_39,Durban,2024-06-15
+40,Customer_40,Durban,2024-12-29
+41,Customer_41,Cape Town,2025-11-17
+42,Customer_42,Durban,2025-12-19
+43,Customer_43,Johannesburg,2025-09-15
+44,Customer_44,Cape Town,2025-06-30
+45,Customer_45,Cape Town,2024-06-16
+46,Customer_46,Pretoria,2025-01-23
+47,Customer_47,Durban,2025-10-17
+48,Customer_48,Bloemfontein,2024-08-12
+49,Customer_49,Durban,2026-05-13
+50,Customer_50,Johannesburg,2024-08-22
+51,Customer_51,Johannesburg,2026-04-04
+52,Customer_52,Durban,2025-02-14
+53,Customer_53,Durban,2024-03-08
+54,Customer_54,Cape Town,2025-08-03
+55,Customer_55,Durban,2024-08-05
+56,Customer_56,Pretoria,2025-02-09
+57,Customer_57,Pretoria,2024-05-26
+58,Customer_58,Durban,2024-05-22
+59,Customer_59,Cape Town,2026-02-01
+60,Customer_60,Bloemfontein,2025-07-05
+61,Customer_61,Durban,2026-02-03
+62,Customer_62,Bloemfontein,2025-03-14
+63,Customer_63,Bloemfontein,2025-02-12
+64,Customer_64,Durban,2024-08-12
+65,Customer_65,Cape Town,2025-06-05
+66,Customer_66,Pretoria,2024-04-03
+67,Customer_67,Johannesburg,2026-05-31
+68,Customer_68,Johannesburg,2024-06-05
+69,Customer_69,Cape Town,2026-03-22
+70,Customer_70,Pretoria,2025-09-02
+71,Customer_71,Johannesburg,2025-01-29
+72,Customer_72,Pretoria,2025-09-02
+73,Customer_73,Pretoria,2025-06-25
+74,Customer_74,Durban,2025-07-20
+75,Customer_75,Johannesburg,2025-11-27
+76,Customer_76,Johannesburg,2025-11-29
+77,Customer_77,Bloemfontein,2026-02-07
+78,Customer_78,Durban,2026-02-26
+79,Customer_79,Durban,2024-04-24
+80,Customer_80,Durban,2025-03-21
+81,Customer_81,Cape Town,2025-04-09
+82,Customer_82,Johannesburg,2026-01-09
+83,Customer_83,Durban,2025-05-27
+84,Customer_84,Cape Town,2025-06-03
+85,Customer_85,Johannesburg,2026-06-10
+86,Customer_86,Durban,2026-05-11
+87,Customer_87,Bloemfontein,2025-09-15
+88,Customer_88,Cape Town,2024-06-05
+89,Customer_89,Durban,2026-02-19
+90,Customer_90,Cape Town,2025-07-06
+91,Customer_91,Bloemfontein,2024-01-01
+92,Customer_92,Bloemfontein,2024-11-27
+93,Customer_93,Pretoria,2024-01-20
+94,Customer_94,Johannesburg,2025-01-06
+95,Customer_95,Durban,2024-09-02
+96,Customer_96,Johannesburg,2024-09-03
+97,Customer_97,Bloemfontein,2024-03-21
+98,Customer_98,Johannesburg,2026-01-19
+99,Customer_99,Pretoria,2026-04-15
+100,Customer_100,Johannesburg,2026-02-17
+101,Customer_101,Bloemfontein,2026-02-23
+102,Customer_102,Cape Town,2024-05-11
+103,Customer_103,Pretoria,2025-07-16
+104,Customer_104,Cape Town,2024-09-28
+105,Customer_105,Bloemfontein,2026-06-12
+106,Customer_106,Bloemfontein,2025-03-09
+107,Customer_107,Cape Town,2025-07-06
+108,Customer_108,Cape Town,2025-12-31
+109,Customer_109,Durban,2025-02-12
+110,Customer_110,Durban,2025-03-24
+111,Customer_111,Bloemfontein,2025-04-07
+112,Customer_112,Johannesburg,2024-09-10
+113,Customer_113,Cape Town,2024-03-06
+114,Customer_114,Durban,2024-01-22
+115,Customer_115,Bloemfontein,2025-07-21
+116,Customer_116,Cape Town,2025-08-25
+117,Customer_117,Cape Town,2024-01-08
+118,Customer_118,Johannesburg,2025-12-25
+119,Customer_119,Johannesburg,2024-08-22
+120,Customer_120,Johannesburg,2024-02-02
+121,Customer_121,Durban,2024-03-13
+122,Customer_122,Bloemfontein,2024-08-31
+123,Customer_123,Durban,2025-11-16
+124,Customer_124,Pretoria,2024-08-07
+125,Customer_125,Bloemfontein,2024-05-15
+126,Customer_126,Bloemfontein,2025-08-13
+127,Customer_127,Pretoria,2024-09-05
+128,Customer_128,Pretoria,2026-04-06
+129,Customer_129,Pretoria,2024-07-13
+130,Customer_130,Johannesburg,2024-04-09
+131,Customer_131,Pretoria,2024-12-28
+132,Customer_132,Pretoria,2025-02-24
+133,Customer_133,Pretoria,2026-06-03
+134,Customer_134,Johannesburg,2025-11-20
+135,Customer_135,Johannesburg,2024-03-03
+136,Customer_136,Pretoria,2026-01-15
+137,Customer_137,Durban,2026-03-30
+138,Customer_138,Johannesburg,2024-09-11
+139,Customer_139,Cape Town,2024-07-13
+140,Customer_140,Bloemfontein,2025-04-04
+141,Customer_141,Cape Town,2025-03-08
+142,Customer_142,Cape Town,2024-10-12
+143,Customer_143,Pretoria,2024-09-12
+144,Customer_144,Johannesburg,2025-03-29
+145,Customer_145,Bloemfontein,2024-04-10
+146,Customer_146,Johannesburg,2025-10-29
+147,Customer_147,Bloemfontein,2026-05-06
+148,Customer_148,Johannesburg,2024-04-05
+149,Customer_149,Cape Town,2024-06-19
+150,Customer_150,Pretoria,2025-05-12
+151,Customer_151,Pretoria,2024-08-06
+152,Customer_152,Pretoria,2024-03-01
+153,Customer_153,Cape Town,2025-01-23
+154,Customer_154,Johannesburg,2025-02-03
+155,Customer_155,Durban,2026-03-13
+156,Customer_156,Pretoria,2024-10-19
+157,Customer_157,Pretoria,2025-12-14
+158,Customer_158,Bloemfontein,2025-11-08
+159,Customer_159,Pretoria,2024-06-07
+160,Customer_160,Cape Town,2024-10-30
+161,Customer_161,Cape Town,2024-02-29
+162,Customer_162,Bloemfontein,2026-01-23
+163,Customer_163,Bloemfontein,2024-03-03
+164,Customer_164,Durban,2024-02-28
+165,Customer_165,Johannesburg,2025-08-21
+166,Customer_166,Pretoria,2025-05-29
+167,Customer_167,Bloemfontein,2024-06-10
+168,Customer_168,Johannesburg,2025-06-04
+169,Customer_169,Johannesburg,2026-05-21
+170,Customer_170,Cape Town,2024-03-11
+171,Customer_171,Bloemfontein,2024-03-10
+172,Customer_172,Cape Town,2025-02-17
+173,Customer_173,Johannesburg,2025-08-06
+174,Customer_174,Cape Town,2025-08-15
+175,Customer_175,Bloemfontein,2024-02-10
+176,Customer_176,Bloemfontein,2024-03-24
+177,Customer_177,Pretoria,2025-11-04
+178,Customer_178,Bloemfontein,2025-08-01
+179,Customer_179,Bloemfontein,2024-11-19
+180,Customer_180,Durban,2024-07-28
+181,Customer_181,Durban,2024-09-01
+182,Customer_182,Durban,2025-02-09
+183,Customer_183,Cape Town,2025-11-18
+184,Customer_184,Durban,2025-04-13
+185,Customer_185,Durban,2026-02-08
+186,Customer_186,Johannesburg,2024-01-10
+187,Customer_187,Pretoria,2025-09-28
+188,Customer_188,Bloemfontein,2024-04-12
+189,Customer_189,Johannesburg,2025-07-04
+190,Customer_190,Cape Town,2025-06-02
+191,Customer_191,Durban,2024-05-15
+192,Customer_192,Durban,2024-03-11
+193,Customer_193,Cape Town,2025-01-13
+194,Customer_194,Durban,2024-06-10
+195,Customer_195,Pretoria,2026-05-03
+196,Customer_196,Bloemfontein,2025-12-21
+197,Customer_197,Durban,2025-09-18
+198,Customer_198,Bloemfontein,2024-01-09
+199,Customer_199,Bloemfontein,2024-11-02
+200,Customer_200,Johannesburg,2026-06-18
+201,Customer_201,Cape Town,2024-09-27
+202,Customer_202,Johannesburg,2024-04-19
+203,Customer_203,Bloemfontein,2024-06-08
+204,Customer_204,Durban,2024-10-15
+205,Customer_205,Bloemfontein,2024-08-03
+206,Customer_206,Durban,2024-07-27
+207,Customer_207,Durban,2025-06-01
+208,Customer_208,Pretoria,2024-09-14
+209,Customer_209,Johannesburg,2024-04-04
+210,Customer_210,Pretoria,2026-04-29
+211,Customer_211,Durban,2024-02-15
+212,Customer_212,Johannesburg,2024-12-07
+213,Customer_213,Cape Town,2025-10-14
+214,Customer_214,Durban,2024-06-14
+215,Customer_215,Pretoria,2025-07-18
+216,Customer_216,Pretoria,2025-07-28
+217,Customer_217,Johannesburg,2024-04-24
+218,Customer_218,Johannesburg,2025-12-08
+219,Customer_219,Cape Town,2025-07-12
+220,Customer_220,Johannesburg,2026-05-04
+221,Customer_221,Durban,2025-08-19
+222,Customer_222,Bloemfontein,2024-05-31
+223,Customer_223,Pretoria,2024-05-10
+224,Customer_224,Johannesburg,2024-11-11
+225,Customer_225,Durban,2026-03-26
+226,Customer_226,Johannesburg,2025-01-01
+227,Customer_227,Cape Town,2025-11-29
+228,Customer_228,Cape Town,2025-11-13
+229,Customer_229,Johannesburg,2024-12-28
+230,Customer_230,Bloemfontein,2026-06-14
+231,Customer_231,Pretoria,2025-09-27
+232,Customer_232,Cape Town,2024-08-30
+233,Customer_233,Cape Town,2026-03-30
+234,Customer_234,Cape Town,2025-02-26
+235,Customer_235,Johannesburg,2024-07-02
+236,Customer_236,Durban,2026-03-12
+237,Customer_237,Pretoria,2026-04-01
+238,Customer_238,Cape Town,2024-09-30
+239,Customer_239,Cape Town,2026-03-17
+240,Customer_240,Johannesburg,2025-01-26
+241,Customer_241,Johannesburg,2026-05-29
+242,Customer_242,Pretoria,2024-08-15
+243,Customer_243,Cape Town,2026-04-16
+244,Customer_244,Pretoria,2024-12-24
+245,Customer_245,Durban,2026-04-20
+246,Customer_246,Cape Town,2024-08-16
+247,Customer_247,Johannesburg,2025-11-06
+248,Customer_248,Cape Town,2025-02-12
+249,Customer_249,Durban,2024-10-12
+250,Customer_250,Johannesburg,2026-03-02
+251,Customer_251,Durban,2024-12-25
+252,Customer_252,Bloemfontein,2025-02-13
+253,Customer_253,Bloemfontein,2024-12-05
+254,Customer_254,Johannesburg,2024-04-28
+255,Customer_255,Durban,2024-07-01
+256,Customer_256,Bloemfontein,2024-09-28
+257,Customer_257,Johannesburg,2024-04-21
+258,Customer_258,Bloemfontein,2025-03-20
+259,Customer_259,Durban,2026-01-16
+260,Customer_260,Durban,2025-03-22
+261,Customer_261,Bloemfontein,2025-06-07
+262,Customer_262,Johannesburg,2025-01-29
+263,Customer_263,Bloemfontein,2024-07-13
+264,Customer_264,Durban,2024-02-15
+265,Customer_265,Pretoria,2024-01-02
+266,Customer_266,Bloemfontein,2026-04-05
+267,Customer_267,Bloemfontein,2025-12-04
+268,Customer_268,Cape Town,2025-01-07
+269,Customer_269,Pretoria,2024-03-12
+270,Customer_270,Durban,2025-09-30
+271,Customer_271,Durban,2025-11-10
+272,Customer_272,Johannesburg,2026-01-07
+273,Customer_273,Durban,2025-06-03
+274,Customer_274,Durban,2025-11-13
+275,Customer_275,Pretoria,2024-11-30
+276,Customer_276,Pretoria,2025-12-14
+277,Customer_277,Durban,2025-07-21
+278,Customer_278,Cape Town,2024-07-15
+279,Customer_279,Pretoria,2025-11-11
+280,Customer_280,Pretoria,2025-11-24
+281,Customer_281,Cape Town,2025-09-22
+282,Customer_282,Bloemfontein,2024-11-04
+283,Customer_283,Pretoria,2025-07-15
+284,Customer_284,Johannesburg,2024-11-07
+285,Customer_285,Durban,2024-08-03
+286,Customer_286,Pretoria,2026-03-15
+287,Customer_287,Bloemfontein,2025-09-13
+288,Customer_288,Durban,2025-04-21
+289,Customer_289,Pretoria,2025-03-28
+290,Customer_290,Cape Town,2025-06-07
+291,Customer_291,Pretoria,2026-03-23
+292,Customer_292,Cape Town,2025-11-05
+293,Customer_293,Johannesburg,2024-10-17
+294,Customer_294,Bloemfontein,2025-11-10
+295,Customer_295,Bloemfontein,2024-12-09
+296,Customer_296,Johannesburg,2026-04-18
+297,Customer_297,Cape Town,2025-11-19
+298,Customer_298,Durban,2024-08-18
+299,Customer_299,Cape Town,2024-05-30
+300,Customer_300,Johannesburg,2024-02-17
+301,Customer_301,Cape Town,2025-05-01
+302,Customer_302,Bloemfontein,2026-05-20
+303,Customer_303,Johannesburg,2025-04-11
+304,Customer_304,Pretoria,2025-10-06
+305,Customer_305,Bloemfontein,2024-07-18
+306,Customer_306,Pretoria,2025-05-21
+307,Customer_307,Pretoria,2024-09-06
+308,Customer_308,Cape Town,2025-11-02
+309,Customer_309,Johannesburg,2026-02-07
+310,Customer_310,Johannesburg,2026-03-08
+311,Customer_311,Pretoria,2024-08-12
+312,Customer_312,Cape Town,2026-04-03
+313,Customer_313,Bloemfontein,2025-04-20
+314,Customer_314,Johannesburg,2025-07-24
+315,Customer_315,Cape Town,2026-05-18
+316,Customer_316,Johannesburg,2025-04-12
+317,Customer_317,Cape Town,2026-03-31
+318,Customer_318,Pretoria,2025-11-14
+319,Customer_319,Bloemfontein,2025-07-26
+320,Customer_320,Bloemfontein,2024-11-20
+321,Customer_321,Pretoria,2025-09-19
+322,Customer_322,Bloemfontein,2025-03-12
+323,Customer_323,Bloemfontein,2025-04-01
+324,Customer_324,Cape Town,2026-01-31
+325,Customer_325,Pretoria,2025-04-05
+326,Customer_326,Durban,2026-02-08
+327,Customer_327,Cape Town,2026-05-10
+328,Customer_328,Durban,2026-02-23
+329,Customer_329,Bloemfontein,2025-05-11
+330,Customer_330,Cape Town,2024-10-08
+331,Customer_331,Pretoria,2024-03-20
+332,Customer_332,Durban,2024-08-28
+333,Customer_333,Durban,2024-12-09
+334,Customer_334,Durban,2025-07-07
+335,Customer_335,Johannesburg,2024-05-21
+336,Customer_336,Cape Town,2024-08-24
+337,Customer_337,Pretoria,2025-12-11
+338,Customer_338,Cape Town,2025-12-24
+339,Customer_339,Cape Town,2024-03-06
+340,Customer_340,Pretoria,2025-02-21
+341,Customer_341,Durban,2025-07-09
+342,Customer_342,Pretoria,2025-03-01
+343,Customer_343,Johannesburg,2024-07-30
+344,Customer_344,Pretoria,2025-02-02
+345,Customer_345,Bloemfontein,2025-12-13
+346,Customer_346,Johannesburg,2026-05-27
+347,Customer_347,Bloemfontein,2025-01-24
+348,Customer_348,Pretoria,2024-01-07
+349,Customer_349,Durban,2024-11-01
+350,Customer_350,Pretoria,2026-05-23
+351,Customer_351,Pretoria,2025-07-05
+352,Customer_352,Bloemfontein,2026-03-30
+353,Customer_353,Bloemfontein,2024-08-13
+354,Customer_354,Pretoria,2024-08-12
+355,Customer_355,Durban,2025-03-22
+356,Customer_356,Pretoria,2024-01-30
+357,Customer_357,Pretoria,2024-12-10
+358,Customer_358,Pretoria,2026-01-11
+359,Customer_359,Cape Town,2026-05-10
+360,Customer_360,Pretoria,2024-05-10
+361,Customer_361,Bloemfontein,2025-06-30
+362,Customer_362,Johannesburg,2025-02-07
+363,Customer_363,Bloemfontein,2025-07-31
+364,Customer_364,Johannesburg,2024-03-26
+365,Customer_365,Pretoria,2024-05-18
+366,Customer_366,Pretoria,2024-07-05
+367,Customer_367,Johannesburg,2024-09-23
+368,Customer_368,Pretoria,2024-12-01
+369,Customer_369,Cape Town,2025-04-10
+370,Customer_370,Durban,2024-12-11
+371,Customer_371,Pretoria,2024-10-11
+372,Customer_372,Pretoria,2024-09-15
+373,Customer_373,Johannesburg,2025-04-26
+374,Customer_374,Johannesburg,2026-02-06
+375,Customer_375,Bloemfontein,2024-02-23
+376,Customer_376,Durban,2024-08-17
+377,Customer_377,Johannesburg,2026-03-10
+378,Customer_378,Johannesburg,2026-02-11
+379,Customer_379,Johannesburg,2024-09-10
+380,Customer_380,Cape Town,2026-05-09
+381,Customer_381,Johannesburg,2025-09-28
+382,Customer_382,Cape Town,2024-09-01
+383,Customer_383,Cape Town,2025-04-29
+384,Customer_384,Johannesburg,2025-07-31
+385,Customer_385,Cape Town,2025-04-21
+386,Customer_386,Durban,2026-02-24
+387,Customer_387,Durban,2024-06-20
+388,Customer_388,Bloemfontein,2025-09-13
+389,Customer_389,Johannesburg,2026-03-07
+390,Customer_390,Cape Town,2024-11-14
+391,Customer_391,Johannesburg,2025-08-15
+392,Customer_392,Johannesburg,2024-11-15
+393,Customer_393,Bloemfontein,2025-11-24
+394,Customer_394,Pretoria,2025-02-10
+395,Customer_395,Cape Town,2024-03-18
+396,Customer_396,Bloemfontein,2025-12-08
+397,Customer_397,Cape Town,2024-04-14
+398,Customer_398,Durban,2026-05-20
+399,Customer_399,Bloemfontein,2026-04-04
+400,Customer_400,Johannesburg,2026-03-26
+401,Customer_401,Bloemfontein,2026-03-12
+402,Customer_402,Johannesburg,2024-12-21
+403,Customer_403,Bloemfontein,2025-03-14
+404,Customer_404,Durban,2024-03-11
+405,Customer_405,Bloemfontein,2025-10-25
+406,Customer_406,Durban,2024-01-13
+407,Customer_407,Pretoria,2026-04-22
+408,Customer_408,Pretoria,2024-04-18
+409,Customer_409,Pretoria,2025-01-05
+410,Customer_410,Pretoria,2025-12-25
+411,Customer_411,Cape Town,2025-03-21
+412,Customer_412,Cape Town,2026-01-21
+413,Customer_413,Bloemfontein,2025-10-28
+414,Customer_414,Durban,2025-09-22
+415,Customer_415,Bloemfontein,2026-03-04
+416,Customer_416,Pretoria,2025-04-21
+417,Customer_417,Pretoria,2026-04-25
+418,Customer_418,Bloemfontein,2024-10-01
+419,Customer_419,Durban,2026-05-22
+420,Customer_420,Cape Town,2026-04-30
+421,Customer_421,Johannesburg,2024-10-12
+422,Customer_422,Pretoria,2024-09-06
+423,Customer_423,Pretoria,2025-08-06
+424,Customer_424,Bloemfontein,2025-11-15
+425,Customer_425,Pretoria,2024-12-10
+426,Customer_426,Johannesburg,2025-05-21
+427,Customer_427,Durban,2024-07-05
+428,Customer_428,Pretoria,2024-08-05
+429,Customer_429,Durban,2026-03-27
+430,Customer_430,Durban,2024-12-14
+431,Customer_431,Durban,2025-09-02
+432,Customer_432,Durban,2025-07-23
+433,Customer_433,Johannesburg,2025-06-13
+434,Customer_434,Cape Town,2024-03-28
+435,Customer_435,Cape Town,2026-01-07
+436,Customer_436,Pretoria,2025-05-15
+437,Customer_437,Bloemfontein,2026-02-15
+438,Customer_438,Cape Town,2025-12-08
+439,Customer_439,Pretoria,2025-10-23
+440,Customer_440,Pretoria,2025-04-03
+441,Customer_441,Johannesburg,2024-04-05
+442,Customer_442,Durban,2024-08-14
+443,Customer_443,Pretoria,2025-12-09
+444,Customer_444,Cape Town,2024-11-09
+445,Customer_445,Bloemfontein,2025-01-12
+446,Customer_446,Pretoria,2025-07-20
+447,Customer_447,Bloemfontein,2024-12-18
+448,Customer_448,Pretoria,2026-02-02
+449,Customer_449,Bloemfontein,2024-12-04
+450,Customer_450,Durban,2025-12-20
+451,Customer_451,Pretoria,2024-10-04
+452,Customer_452,Durban,2024-09-14
+453,Customer_453,Cape Town,2024-05-03
+454,Customer_454,Cape Town,2024-11-19
+455,Customer_455,Johannesburg,2026-01-30
+456,Customer_456,Bloemfontein,2026-02-19
+457,Customer_457,Cape Town,2024-07-15
+458,Customer_458,Cape Town,2026-01-26
+459,Customer_459,Pretoria,2024-10-10
+460,Customer_460,Bloemfontein,2026-02-17
+461,Customer_461,Bloemfontein,2025-09-03
+462,Customer_462,Durban,2024-04-12
+463,Customer_463,Cape Town,2024-10-30
+464,Customer_464,Cape Town,2025-01-04
+465,Customer_465,Cape Town,2024-11-05
+466,Customer_466,Johannesburg,2025-12-26
+467,Customer_467,Bloemfontein,2024-05-09
+468,Customer_468,Durban,2024-02-16
+469,Customer_469,Johannesburg,2025-07-20
+470,Customer_470,Durban,2025-12-15
+471,Customer_471,Cape Town,2025-10-15
+472,Customer_472,Pretoria,2024-04-15
+473,Customer_473,Johannesburg,2025-08-10
+474,Customer_474,Durban,2025-04-25
+475,Customer_475,Pretoria,2025-03-27
+476,Customer_476,Durban,2024-07-07
+477,Customer_477,Johannesburg,2024-09-15
+478,Customer_478,Pretoria,2024-04-26
+479,Customer_479,Johannesburg,2025-02-14
+480,Customer_480,Pretoria,2024-03-16
+481,Customer_481,Bloemfontein,2025-10-06
+482,Customer_482,Johannesburg,2024-06-04
+483,Customer_483,Cape Town,2026-04-10
+484,Customer_484,Bloemfontein,2024-11-07
+485,Customer_485,Johannesburg,2024-09-11
+486,Customer_486,Johannesburg,2025-07-25
+487,Customer_487,Pretoria,2025-09-12
+488,Customer_488,Bloemfontein,2026-03-20
+489,Customer_489,Bloemfontein,2024-08-19
+490,Customer_490,Bloemfontein,2025-01-24
+491,Customer_491,Pretoria,2025-03-29
+492,Customer_492,Durban,2026-05-30
+493,Customer_493,Bloemfontein,2025-03-15
+494,Customer_494,Durban,2025-08-05
+495,Customer_495,Bloemfontein,2024-03-02
+496,Customer_496,Bloemfontein,2026-01-27
+497,Customer_497,Johannesburg,2026-02-20
+498,Customer_498,Cape Town,2025-10-02
+499,Customer_499,Cape Town,2024-09-27
+500,Customer_500,Johannesburg,2024-06-09
+501,Customer_501,Cape Town,2024-06-26
+502,Customer_502,Bloemfontein,2024-03-17
+503,Customer_503,Cape Town,2024-01-03
+504,Customer_504,Pretoria,2025-04-06
+505,Customer_505,Bloemfontein,2025-04-26
+506,Customer_506,Durban,2024-02-03
+507,Customer_507,Cape Town,2024-10-22
+508,Customer_508,Durban,2025-12-20
+509,Customer_509,Pretoria,2024-03-13
+510,Customer_510,Cape Town,2024-09-27
+511,Customer_511,Bloemfontein,2025-11-08
+512,Customer_512,Cape Town,2025-03-11
+513,Customer_513,Johannesburg,2025-07-11
+514,Customer_514,Cape Town,2025-10-25
+515,Customer_515,Cape Town,2024-09-29
+516,Customer_516,Cape Town,2024-03-14
+517,Customer_517,Johannesburg,2024-06-18
+518,Customer_518,Durban,2025-09-01
+519,Customer_519,Bloemfontein,2024-10-22
+520,Customer_520,Pretoria,2024-05-07
+521,Customer_521,Pretoria,2025-12-06
+522,Customer_522,Durban,2025-12-17
+523,Customer_523,Pretoria,2024-10-05
+524,Customer_524,Bloemfontein,2025-07-06
+525,Customer_525,Pretoria,2025-03-24
+526,Customer_526,Johannesburg,2025-09-04
+527,Customer_527,Johannesburg,2025-03-18
+528,Customer_528,Durban,2025-09-10
+529,Customer_529,Durban,2024-01-27
+530,Customer_530,Johannesburg,2024-08-22
+531,Customer_531,Bloemfontein,2025-08-24
+532,Customer_532,Johannesburg,2026-02-22
+533,Customer_533,Durban,2025-08-13
+534,Customer_534,Johannesburg,2026-02-20
+535,Customer_535,Cape Town,2025-04-26
+536,Customer_536,Bloemfontein,2025-10-29
+537,Customer_537,Pretoria,2024-10-11
+538,Customer_538,Cape Town,2025-08-22
+539,Customer_539,Pretoria,2025-10-12
+540,Customer_540,Pretoria,2024-04-03
+541,Customer_541,Pretoria,2024-12-22
+542,Customer_542,Pretoria,2024-12-07
+543,Customer_543,Durban,2025-11-17
+544,Customer_544,Johannesburg,2026-05-28
+545,Customer_545,Cape Town,2024-12-03
+546,Customer_546,Pretoria,2025-12-11
+547,Customer_547,Pretoria,2024-10-22
+548,Customer_548,Pretoria,2026-04-13
+549,Customer_549,Bloemfontein,2024-02-07
+550,Customer_550,Pretoria,2024-03-31
+551,Customer_551,Durban,2024-09-15
+552,Customer_552,Durban,2024-04-28
+553,Customer_553,Pretoria,2026-06-04
+554,Customer_554,Bloemfontein,2026-04-24
+555,Customer_555,Johannesburg,2025-11-04
+556,Customer_556,Bloemfontein,2025-04-18
+557,Customer_557,Pretoria,2024-02-25
+558,Customer_558,Cape Town,2025-06-14
+559,Customer_559,Durban,2025-09-29
+560,Customer_560,Pretoria,2025-10-02
+561,Customer_561,Pretoria,2026-02-17
+562,Customer_562,Johannesburg,2024-07-27
+563,Customer_563,Durban,2025-07-16
+564,Customer_564,Cape Town,2024-10-21
+565,Customer_565,Pretoria,2025-12-16
+566,Customer_566,Pretoria,2024-05-04
+567,Customer_567,Johannesburg,2025-10-07
+568,Customer_568,Bloemfontein,2026-03-29
+569,Customer_569,Cape Town,2025-12-27
+570,Customer_570,Cape Town,2024-11-14
+571,Customer_571,Bloemfontein,2024-01-15
+572,Customer_572,Bloemfontein,2025-02-21
+573,Customer_573,Johannesburg,2024-08-18
+574,Customer_574,Johannesburg,2025-04-17
+575,Customer_575,Johannesburg,2025-10-25
+576,Customer_576,Cape Town,2025-05-25
+577,Customer_577,Durban,2025-06-05
+578,Customer_578,Durban,2025-03-01
+579,Customer_579,Pretoria,2025-04-28
+580,Customer_580,Cape Town,2025-04-12
+581,Customer_581,Bloemfontein,2024-05-28
+582,Customer_582,Pretoria,2024-07-14
+583,Customer_583,Bloemfontein,2025-06-04
+584,Customer_584,Cape Town,2026-06-03
+585,Customer_585,Johannesburg,2024-10-09
+586,Customer_586,Pretoria,2024-12-14
+587,Customer_587,Bloemfontein,2024-09-30
+588,Customer_588,Johannesburg,2024-10-16
+589,Customer_589,Durban,2026-05-07
+590,Customer_590,Bloemfontein,2025-08-16
+591,Customer_591,Pretoria,2026-06-05
+592,Customer_592,Cape Town,2025-04-02
+593,Customer_593,Bloemfontein,2025-05-10
+594,Customer_594,Durban,2024-12-06
+595,Customer_595,Bloemfontein,2026-02-20
+596,Customer_596,Bloemfontein,2025-01-21
+597,Customer_597,Pretoria,2024-11-25
+598,Customer_598,Cape Town,2025-12-15
+599,Customer_599,Cape Town,2025-08-08
+600,Customer_600,Pretoria,2024-08-27
+601,Customer_601,Pretoria,2024-02-14
+602,Customer_602,Durban,2026-02-01
+603,Customer_603,Pretoria,2025-12-23
+604,Customer_604,Pretoria,2025-01-30
+605,Customer_605,Cape Town,2025-05-22
+606,Customer_606,Johannesburg,2024-05-09
+607,Customer_607,Bloemfontein,2025-08-27
+608,Customer_608,Durban,2026-06-09
+609,Customer_609,Johannesburg,2026-06-14
+610,Customer_610,Pretoria,2024-04-12
+611,Customer_611,Bloemfontein,2025-04-12
+612,Customer_612,Johannesburg,2026-01-09
+613,Customer_613,Cape Town,2025-02-23
+614,Customer_614,Cape Town,2024-03-17
+615,Customer_615,Pretoria,2026-03-11
+616,Customer_616,Durban,2024-12-12
+617,Customer_617,Bloemfontein,2025-12-10
+618,Customer_618,Pretoria,2025-10-27
+619,Customer_619,Johannesburg,2026-05-22
+620,Customer_620,Durban,2026-05-22
+621,Customer_621,Bloemfontein,2025-01-24
+622,Customer_622,Durban,2025-10-03
+623,Customer_623,Pretoria,2026-06-12
+624,Customer_624,Bloemfontein,2024-02-06
+625,Customer_625,Bloemfontein,2024-03-11
+626,Customer_626,Cape Town,2025-10-08
+627,Customer_627,Durban,2024-08-20
+628,Customer_628,Johannesburg,2025-03-20
+629,Customer_629,Johannesburg,2026-02-17
+630,Customer_630,Johannesburg,2025-03-30
+631,Customer_631,Cape Town,2025-12-11
+632,Customer_632,Durban,2024-01-30
+633,Customer_633,Johannesburg,2024-11-28
+634,Customer_634,Johannesburg,2024-10-27
+635,Customer_635,Durban,2025-01-18
+636,Customer_636,Pretoria,2024-05-29
+637,Customer_637,Cape Town,2025-06-27
+638,Customer_638,Pretoria,2025-08-02
+639,Customer_639,Cape Town,2024-06-23
+640,Customer_640,Cape Town,2024-03-21
+641,Customer_641,Bloemfontein,2026-06-10
+642,Customer_642,Pretoria,2025-09-26
+643,Customer_643,Cape Town,2025-05-24
+644,Customer_644,Bloemfontein,2024-05-26
+645,Customer_645,Cape Town,2025-04-17
+646,Customer_646,Durban,2025-04-15
+647,Customer_647,Durban,2025-11-13
+648,Customer_648,Johannesburg,2026-04-03
+649,Customer_649,Pretoria,2024-10-21
+650,Customer_650,Bloemfontein,2024-06-10
+651,Customer_651,Johannesburg,2025-03-28
+652,Customer_652,Durban,2025-08-24
+653,Customer_653,Durban,2025-10-16
+654,Customer_654,Pretoria,2025-12-07
+655,Customer_655,Durban,2025-04-12
+656,Customer_656,Durban,2024-07-22
+657,Customer_657,Pretoria,2026-05-23
+658,Customer_658,Pretoria,2024-04-19
+659,Customer_659,Cape Town,2025-01-25
+660,Customer_660,Bloemfontein,2025-01-02
+661,Customer_661,Bloemfontein,2024-10-29
+662,Customer_662,Durban,2024-01-23
+663,Customer_663,Pretoria,2024-10-08
+664,Customer_664,Johannesburg,2025-08-02
+665,Customer_665,Johannesburg,2025-09-12
+666,Customer_666,Pretoria,2026-05-02
+667,Customer_667,Durban,2026-03-05
+668,Customer_668,Cape Town,2025-09-13
+669,Customer_669,Durban,2024-08-12
+670,Customer_670,Cape Town,2025-09-27
+671,Customer_671,Durban,2025-11-25
+672,Customer_672,Cape Town,2025-10-05
+673,Customer_673,Johannesburg,2025-10-04
+674,Customer_674,Johannesburg,2024-11-12
+675,Customer_675,Pretoria,2024-02-04
+676,Customer_676,Bloemfontein,2025-01-08
+677,Customer_677,Cape Town,2024-04-02
+678,Customer_678,Durban,2024-11-30
+679,Customer_679,Pretoria,2024-06-28
+680,Customer_680,Cape Town,2024-05-15
+681,Customer_681,Bloemfontein,2026-06-16
+682,Customer_682,Durban,2025-06-27
+683,Customer_683,Bloemfontein,2024-10-06
+684,Customer_684,Cape Town,2024-09-20
+685,Customer_685,Pretoria,2026-04-05
+686,Customer_686,Durban,2026-02-03
+687,Customer_687,Durban,2026-04-03
+688,Customer_688,Johannesburg,2025-04-24
+689,Customer_689,Johannesburg,2024-05-24
+690,Customer_690,Cape Town,2026-05-30
+691,Customer_691,Pretoria,2026-05-16
+692,Customer_692,Bloemfontein,2025-01-09
+693,Customer_693,Johannesburg,2026-03-20
+694,Customer_694,Pretoria,2024-01-15
+695,Customer_695,Durban,2025-07-03
+696,Customer_696,Johannesburg,2025-04-10
+697,Customer_697,Durban,2025-11-19
+698,Customer_698,Durban,2025-08-21
+699,Customer_699,Pretoria,2026-04-22
+700,Customer_700,Durban,2024-04-20
+701,Customer_701,Cape Town,2025-04-27
+702,Customer_702,Johannesburg,2025-09-26
+703,Customer_703,Bloemfontein,2024-12-01
+704,Customer_704,Bloemfontein,2024-08-14
+705,Customer_705,Johannesburg,2025-10-12
+706,Customer_706,Pretoria,2025-12-18
+707,Customer_707,Durban,2025-10-26
+708,Customer_708,Pretoria,2024-04-29
+709,Customer_709,Cape Town,2024-02-16
+710,Customer_710,Johannesburg,2024-11-07
+711,Customer_711,Pretoria,2024-04-28
+712,Customer_712,Johannesburg,2024-08-28
+713,Customer_713,Bloemfontein,2024-05-18
+714,Customer_714,Pretoria,2025-04-09
+715,Customer_715,Durban,2025-11-17
+716,Customer_716,Bloemfontein,2025-03-05
+717,Customer_717,Bloemfontein,2026-01-30
+718,Customer_718,Cape Town,2025-02-28
+719,Customer_719,Johannesburg,2026-05-03
+720,Customer_720,Pretoria,2025-09-22
+721,Customer_721,Pretoria,2024-10-13
+722,Customer_722,Johannesburg,2025-12-07
+723,Customer_723,Durban,2024-08-10
+724,Customer_724,Pretoria,2025-03-31
+725,Customer_725,Cape Town,2026-05-25
+726,Customer_726,Durban,2024-04-11
+727,Customer_727,Durban,2025-07-11
+728,Customer_728,Durban,2024-03-03
+729,Customer_729,Pretoria,2024-10-09
+730,Customer_730,Cape Town,2024-05-05
+731,Customer_731,Pretoria,2024-04-03
+732,Customer_732,Cape Town,2025-10-19
+733,Customer_733,Bloemfontein,2024-01-22
+734,Customer_734,Johannesburg,2026-03-16
+735,Customer_735,Durban,2024-09-06
+736,Customer_736,Cape Town,2026-03-16
+737,Customer_737,Bloemfontein,2024-07-29
+738,Customer_738,Johannesburg,2026-04-29
+739,Customer_739,Bloemfontein,2024-07-31
+740,Customer_740,Bloemfontein,2024-08-09
+741,Customer_741,Cape Town,2024-12-02
+742,Customer_742,Cape Town,2026-03-18
+743,Customer_743,Bloemfontein,2024-01-03
+744,Customer_744,Durban,2026-05-29
+745,Customer_745,Cape Town,2024-05-13
+746,Customer_746,Bloemfontein,2024-09-13
+747,Customer_747,Cape Town,2024-04-22
+748,Customer_748,Johannesburg,2024-05-14
+749,Customer_749,Johannesburg,2025-01-01
+750,Customer_750,Cape Town,2025-08-25
+751,Customer_751,Durban,2024-01-17
+752,Customer_752,Cape Town,2024-09-28
+753,Customer_753,Johannesburg,2024-05-09
+754,Customer_754,Pretoria,2025-06-22
+755,Customer_755,Johannesburg,2026-02-02
+756,Customer_756,Johannesburg,2025-05-02
+757,Customer_757,Pretoria,2026-03-07
+758,Customer_758,Durban,2025-06-09
+759,Customer_759,Bloemfontein,2024-04-21
+760,Customer_760,Pretoria,2025-05-30
+761,Customer_761,Cape Town,2025-09-21
+762,Customer_762,Johannesburg,2026-01-14
+763,Customer_763,Bloemfontein,2024-11-04
+764,Customer_764,Pretoria,2025-10-20
+765,Customer_765,Johannesburg,2024-03-03
+766,Customer_766,Pretoria,2026-05-17
+767,Customer_767,Pretoria,2025-03-12
+768,Customer_768,Johannesburg,2025-05-17
+769,Customer_769,Pretoria,2024-03-16
+770,Customer_770,Johannesburg,2024-11-25
+771,Customer_771,Bloemfontein,2024-05-31
+772,Customer_772,Johannesburg,2024-05-09
+773,Customer_773,Durban,2025-10-01
+774,Customer_774,Bloemfontein,2025-07-15
+775,Customer_775,Durban,2025-01-25
+776,Customer_776,Bloemfontein,2025-06-27
+777,Customer_777,Durban,2025-04-09
+778,Customer_778,Bloemfontein,2025-09-11
+779,Customer_779,Pretoria,2024-04-11
+780,Customer_780,Johannesburg,2026-05-23
+781,Customer_781,Bloemfontein,2026-01-08
+782,Customer_782,Cape Town,2025-03-16
+783,Customer_783,Pretoria,2024-08-21
+784,Customer_784,Pretoria,2024-12-13
+785,Customer_785,Pretoria,2025-02-12
+786,Customer_786,Pretoria,2026-01-17
+787,Customer_787,Johannesburg,2024-11-16
+788,Customer_788,Pretoria,2024-11-16
+789,Customer_789,Durban,2025-01-18
+790,Customer_790,Cape Town,2025-12-04
+791,Customer_791,Pretoria,2024-03-09
+792,Customer_792,Johannesburg,2026-05-01
+793,Customer_793,Johannesburg,2024-04-05
+794,Customer_794,Pretoria,2024-04-08
+795,Customer_795,Durban,2026-04-11
+796,Customer_796,Cape Town,2025-07-23
+797,Customer_797,Johannesburg,2025-08-23
+798,Customer_798,Bloemfontein,2025-07-29
+799,Customer_799,Durban,2025-11-17
+800,Customer_800,Johannesburg,2025-02-24
+801,Customer_801,Durban,2026-06-13
+802,Customer_802,Pretoria,2026-06-07
+803,Customer_803,Johannesburg,2024-10-21
+804,Customer_804,Bloemfontein,2024-11-15
+805,Customer_805,Durban,2024-04-16
+806,Customer_806,Bloemfontein,2025-06-03
+807,Customer_807,Cape Town,2024-06-07
+808,Customer_808,Pretoria,2024-08-17
+809,Customer_809,Johannesburg,2024-12-24
+810,Customer_810,Bloemfontein,2025-01-11
+811,Customer_811,Johannesburg,2026-02-19
+812,Customer_812,Durban,2025-08-10
+813,Customer_813,Cape Town,2026-04-06
+814,Customer_814,Pretoria,2026-05-15
+815,Customer_815,Bloemfontein,2026-02-24
+816,Customer_816,Bloemfontein,2025-09-20
+817,Customer_817,Bloemfontein,2024-01-27
+818,Customer_818,Bloemfontein,2025-11-04
+819,Customer_819,Durban,2024-01-30
+820,Customer_820,Cape Town,2024-10-06
+821,Customer_821,Durban,2024-12-13
+822,Customer_822,Durban,2024-01-07
+823,Customer_823,Cape Town,2026-06-09
+824,Customer_824,Cape Town,2025-08-02
+825,Customer_825,Pretoria,2024-03-12
+826,Customer_826,Cape Town,2026-01-28
+827,Customer_827,Johannesburg,2024-04-03
+828,Customer_828,Bloemfontein,2024-08-08
+829,Customer_829,Pretoria,2025-03-05
+830,Customer_830,Pretoria,2024-12-15
+831,Customer_831,Cape Town,2025-01-13
+832,Customer_832,Durban,2026-01-08
+833,Customer_833,Durban,2026-03-06
+834,Customer_834,Bloemfontein,2025-09-02
+835,Customer_835,Johannesburg,2024-02-23
+836,Customer_836,Cape Town,2024-06-10
+837,Customer_837,Bloemfontein,2024-02-20
+838,Customer_838,Johannesburg,2024-10-05
+839,Customer_839,Pretoria,2025-11-08
+840,Customer_840,Pretoria,2025-05-12
+841,Customer_841,Bloemfontein,2025-03-28
+842,Customer_842,Pretoria,2024-10-06
+843,Customer_843,Cape Town,2026-02-12
+844,Customer_844,Bloemfontein,2024-04-26
+845,Customer_845,Durban,2025-03-16
+846,Customer_846,Johannesburg,2024-10-17
+847,Customer_847,Bloemfontein,2025-05-13
+848,Customer_848,Bloemfontein,2025-11-14
+849,Customer_849,Durban,2024-02-16
+850,Customer_850,Cape Town,2025-02-08
+851,Customer_851,Bloemfontein,2024-02-26
+852,Customer_852,Johannesburg,2024-07-28
+853,Customer_853,Durban,2024-08-04
+854,Customer_854,Cape Town,2026-02-21
+855,Customer_855,Durban,2024-10-23
+856,Customer_856,Durban,2024-05-02
+857,Customer_857,Johannesburg,2025-05-24
+858,Customer_858,Pretoria,2024-06-28
+859,Customer_859,Cape Town,2025-01-24
+860,Customer_860,Bloemfontein,2025-12-21
+861,Customer_861,Cape Town,2025-05-27
+862,Customer_862,Bloemfontein,2026-05-03
+863,Customer_863,Durban,2024-03-14
+864,Customer_864,Pretoria,2026-06-01
+865,Customer_865,Johannesburg,2025-03-22
+866,Customer_866,Johannesburg,2025-04-15
+867,Customer_867,Johannesburg,2026-06-01
+868,Customer_868,Durban,2025-08-12
+869,Customer_869,Pretoria,2025-08-10
+870,Customer_870,Pretoria,2025-12-27
+871,Customer_871,Pretoria,2024-10-23
+872,Customer_872,Johannesburg,2025-02-18
+873,Customer_873,Johannesburg,2024-11-28
+874,Customer_874,Cape Town,2026-03-31
+875,Customer_875,Bloemfontein,2025-04-16
+876,Customer_876,Durban,2024-03-31
+877,Customer_877,Pretoria,2026-05-14
+878,Customer_878,Johannesburg,2024-09-06
+879,Customer_879,Pretoria,2025-08-26
+880,Customer_880,Pretoria,2025-06-20
+881,Customer_881,Johannesburg,2025-02-09
+882,Customer_882,Durban,2026-02-02
+883,Customer_883,Durban,2024-08-14
+884,Customer_884,Durban,2026-03-08
+885,Customer_885,Cape Town,2024-03-19
+886,Customer_886,Bloemfontein,2025-10-10
+887,Customer_887,Johannesburg,2025-06-27
+888,Customer_888,Bloemfontein,2024-07-17
+889,Customer_889,Durban,2024-12-25
+890,Customer_890,Cape Town,2024-08-29
+891,Customer_891,Johannesburg,2024-05-29
+892,Customer_892,Durban,2024-07-21
+893,Customer_893,Cape Town,2025-09-08
+894,Customer_894,Cape Town,2026-02-17
+895,Customer_895,Johannesburg,2024-06-30
+896,Customer_896,Pretoria,2025-04-20
+897,Customer_897,Bloemfontein,2026-02-17
+898,Customer_898,Bloemfontein,2025-04-04
+899,Customer_899,Bloemfontein,2025-10-20
+900,Customer_900,Bloemfontein,2024-11-26
+901,Customer_901,Durban,2024-06-03
+902,Customer_902,Pretoria,2024-03-10
+903,Customer_903,Pretoria,2025-03-28
+904,Customer_904,Durban,2026-03-26
+905,Customer_905,Durban,2025-08-28
+906,Customer_906,Johannesburg,2024-12-26
+907,Customer_907,Bloemfontein,2024-03-16
+908,Customer_908,Durban,2025-04-17
+909,Customer_909,Pretoria,2024-02-08
+910,Customer_910,Johannesburg,2025-01-12
+911,Customer_911,Durban,2024-03-19
+912,Customer_912,Johannesburg,2025-09-21
+913,Customer_913,Bloemfontein,2025-06-03
+914,Customer_914,Pretoria,2025-04-18
+915,Customer_915,Bloemfontein,2025-07-21
+916,Customer_916,Johannesburg,2025-04-05
+917,Customer_917,Bloemfontein,2025-10-29
+918,Customer_918,Cape Town,2024-11-25
+919,Customer_919,Bloemfontein,2025-05-02
+920,Customer_920,Bloemfontein,2024-06-03
+921,Customer_921,Johannesburg,2025-04-06
+922,Customer_922,Johannesburg,2026-04-10
+923,Customer_923,Durban,2026-01-01
+924,Customer_924,Johannesburg,2025-05-31
+925,Customer_925,Cape Town,2024-02-10
+926,Customer_926,Cape Town,2025-12-25
+927,Customer_927,Pretoria,2025-03-25
+928,Customer_928,Bloemfontein,2025-06-19
+929,Customer_929,Bloemfontein,2024-06-11
+930,Customer_930,Durban,2025-01-16
+931,Customer_931,Durban,2025-01-31
+932,Customer_932,Pretoria,2026-03-04
+933,Customer_933,Durban,2025-11-26
+934,Customer_934,Bloemfontein,2024-02-23
+935,Customer_935,Durban,2024-03-08
+936,Customer_936,Durban,2024-04-06
+937,Customer_937,Bloemfontein,2025-11-25
+938,Customer_938,Pretoria,2024-10-17
+939,Customer_939,Durban,2026-01-11
+940,Customer_940,Bloemfontein,2026-06-13
+941,Customer_941,Cape Town,2024-12-07
+942,Customer_942,Johannesburg,2025-08-19
+943,Customer_943,Cape Town,2024-12-24
+944,Customer_944,Durban,2025-11-02
+945,Customer_945,Pretoria,2024-05-12
+946,Customer_946,Bloemfontein,2025-12-26
+947,Customer_947,Johannesburg,2024-11-13
+948,Customer_948,Bloemfontein,2025-01-20
+949,Customer_949,Durban,2026-04-12
+950,Customer_950,Cape Town,2025-11-17
+951,Customer_951,Bloemfontein,2024-04-05
+952,Customer_952,Pretoria,2025-06-04
+953,Customer_953,Durban,2024-01-19
+954,Customer_954,Durban,2024-11-12
+955,Customer_955,Cape Town,2024-08-07
+956,Customer_956,Durban,2026-02-23
+957,Customer_957,Pretoria,2024-07-15
+958,Customer_958,Cape Town,2024-05-20
+959,Customer_959,Cape Town,2024-03-20
+960,Customer_960,Durban,2026-05-14
+961,Customer_961,Johannesburg,2025-06-03
+962,Customer_962,Bloemfontein,2026-05-05
+963,Customer_963,Bloemfontein,2024-02-08
+964,Customer_964,Durban,2026-06-16
+965,Customer_965,Bloemfontein,2024-05-14
+966,Customer_966,Bloemfontein,2025-01-20
+967,Customer_967,Cape Town,2024-06-15
+968,Customer_968,Cape Town,2026-05-01
+969,Customer_969,Bloemfontein,2026-04-08
+970,Customer_970,Cape Town,2026-01-08
+971,Customer_971,Pretoria,2024-02-14
+972,Customer_972,Pretoria,2025-01-08
+973,Customer_973,Cape Town,2025-03-30
+974,Customer_974,Bloemfontein,2024-10-18
+975,Customer_975,Pretoria,2024-08-27
+976,Customer_976,Bloemfontein,2024-09-01
+977,Customer_977,Durban,2026-04-08
+978,Customer_978,Pretoria,2026-05-05
+979,Customer_979,Cape Town,2025-01-11
+980,Customer_980,Bloemfontein,2025-03-27
+981,Customer_981,Pretoria,2026-02-26
+982,Customer_982,Durban,2026-03-07
+983,Customer_983,Pretoria,2025-05-29
+984,Customer_984,Bloemfontein,2025-03-04
+985,Customer_985,Cape Town,2026-04-16
+986,Customer_986,Cape Town,2026-03-31
+987,Customer_987,Bloemfontein,2024-05-21
+988,Customer_988,Durban,2024-02-23
+989,Customer_989,Pretoria,2026-06-14
+990,Customer_990,Durban,2025-07-21
+991,Customer_991,Johannesburg,2025-12-29
+992,Customer_992,Bloemfontein,2026-05-21
+993,Customer_993,Johannesburg,2024-10-18
+994,Customer_994,Johannesburg,2026-02-20
+995,Customer_995,Cape Town,2024-10-06
+996,Customer_996,Pretoria,2025-06-09
+997,Customer_997,Cape Town,2026-04-30
+998,Customer_998,Pretoria,2024-04-03
+999,Customer_999,Cape Town,2026-04-16
+1000,Customer_1000,Pretoria,2024-12-23
