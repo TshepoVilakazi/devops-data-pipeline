@@ -1,0 +1,11 @@
+
+services:
+  etl:
+    build: .
+    image: devops-data-pipeline:v1
+
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+
+    command: python src/pipeline/etl.py
